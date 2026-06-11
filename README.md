@@ -90,23 +90,23 @@ gtkwave traffic.vcd
 Below are the compiled state routing configurations alongside functional verification waveforms generated via GTKWave.
 
 ### Functional Waveform Verification
-![GTKWave Simulation Waveform](images/gtkwave_simulation.png)
+![GTKWave Simulation Waveform](gtkwave_simulation.png)
 
 ### Architectural Design Structures
 This section captures the RTL architectural topologies and block interactions mapped across your design phases.
 
 | Pipeline Block Diagrams (1–4) | Pipeline Block Diagrams (5–7) |
 | :---: | :---: |
-| ![Design Phase 1](images/Design%20structure1.png) | ![Design Phase 5](images/Design%20structure5.png) |
-| ![Design Phase 2](images/Design%20structure2.png) | ![Design Phase 6](images/Design%20structure6.png) |
-| ![Design Phase 3](images/Design%20structure3.png) | ![Design Phase 7](images/Design%20structure7.png) |
-| ![Design Phase 4](images/Design%20structure4.png) | *End of architectural layouts* |
+| ![Design Phase 1](Design%20structure1.png) | ![Design Phase 5](Design%20structure5.png) |
+| ![Design Phase 2](Design%20structure2.png) | ![Design Phase 6](Design%20structure6.png) |
+| ![Design Phase 3](Design%20structure3.png) | ![Design Phase 7](Design%20structure7.png) |
+| ![Design Phase 4](Design%20structure4.png) | *End of architectural layouts* |
 
 ### Test Suite Simulation Outputs
 Live compilation terminal printouts detailing state transitions, emergency overrides, and verification success logs.
 
 | Verification Logs | Log Overview Profiles |
 | :---: | :--- |
-| ![Output Log 1](images/simulation%20output1.png) | Full test suite initialization and baseline loops. |
-| ![Output Log 2](images/simulation%20output2.png) | Pedestrian latch processing and emergency routing checks. |
-| ![Output Log 3](images/simulation%20output3.png) | Simultaneous density stress test and safe exit verification. |
+| ![Output Log 1](simulation%20output1.png) | Full test suite initialization and baseline loops. |
+| ![Output Log 2](simulation%20output2.png) | Pedestrian latch processing and emergency routing checks. |
+| ![Output Log 3](simulation%20output3.png) | Simultaneous density stress test and safe exit verification. |
