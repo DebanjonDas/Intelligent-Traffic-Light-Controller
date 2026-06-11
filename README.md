@@ -73,7 +73,7 @@ Ensure you have an HDL compiler (such as **Icarus Verilog**) and a waveform view
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/intelligent-traffic-controller.git](https://github.com/yourusername/intelligent-traffic-controller.git)
+git clone [https://github.com/DebanjonDas/intelligent-traffic-controller.git](https://github.com/yourusername/intelligent-traffic-controller.git)
 cd intelligent-traffic-controller
 
 # Compile the source files and testbench
@@ -84,3 +84,16 @@ vvp traffic_sim
 
 # Launch wave viewer to inspect signals
 gtkwave traffic.vcd
+```
+## 📊 Simulation & Architecture Gallery
+
+Below are the compiled state routing configurations alongside functional verification waveforms generated via GTKWave.
+
+### Functional Waveform Verification
+![GTKWave Simulation Waveform](gtkwave_simulation.png)
+
+### Architectural Snapshots
+| Pipeline Block Diagrams | Test Suite Outputs |
+| :---: | :---: |
+| ![Design Phase 1](Design%20structure1.png) | ![Output Log 1](simulation%20output1.png) |
+| ![Design Phase 2](Design%20structure2.png) | ![Output Log 2](simulation%20output2.png) |
